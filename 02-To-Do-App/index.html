@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do App</title>
+    <script src="app.js"></script>
+  </head>
+  <style>
+    body {
+      background-color: rgb(4, 88, 84);
+      text-align: center;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+    }
+    input {
+      height: 50px;
+      width: 300px;
+    }
+    button {
+      height: 50px;
+      width: 100px;
+    }
+    button:hover {
+      cursor: pointer;
+    }
+    #newTask Div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+    }
+    #newTask button {
+      height: 20px;
+      margin-left: 50px;
+    }
+  </style>
+  <body>
+    <h1>To-Do App</h1>
+    <h1>Add New Task</h1>
+    <form class="d-flex" role="search">
+      <input
+        id="addInput"
+        class="form-control me-2"
+        type="search"
+        placeholder="Add Item"
+        aria-label="Search"
+      />
+      <button id="addBt" class="btn btn-outline-success" type="submit">
+        Add Item
+      </button>
+
+      <div id="newTask" class="d-flex"></div>
+    </form>
+  </body>
+</html>
