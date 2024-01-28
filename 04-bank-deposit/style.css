@@ -1,0 +1,104 @@
+* {
+  background-color: rgb(1, 46, 40);
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.time {
+  display: flex;
+  justify-content: space-evenly;
+}
+.main-container {
+  width: 300px;
+  height: 150px;
+  background-color: rgb(3, 75, 75);
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+}
+.main-container h1 {
+  background-color: rgb(3, 75, 75);
+  color: white;
+}
+.history {
+  text-align: center;
+}
+.history p {
+  color: white;
+}
+.deposit-history p {
+  padding-top: 10px;
+  padding-bottom: 2px;
+  background-color: rgb(4, 85, 85);
+  border-radius: 10px;
+}
+.deposit-history span {
+  background-color: rgb(4, 85, 85);
+}
+
+.balance {
+  background-color: rgb(3, 75, 75);
+}
+
+.balance-container {
+  padding-top: 20px;
+  width: 300px;
+  height: 150px;
+  background-color: rgb(3, 75, 75);
+  color: white;
+  text-align: center;
+  margin-bottom: 125px;
+}
+.balance-container h1 {
+  background-color: rgb(3, 75, 75);
+  color: white;
+}
+
+input {
+  height: 50px;
+  margin-top: 10px;
+  text-align: center;
+  background-color: rgb(13, 14, 14);
+  color: white;
+  border: 2px solid rgb(0, 41, 48);
+  margin-left: 35px;
+  font-size: 18px;
+}
+
+button {
+  height: 50px;
+  padding: 10px;
+  margin-top: 10px;
+  text-align: center;
+  background-color: rgb(13, 14, 14);
+  color: white;
+  border: 2px solid rgb(0, 41, 48);
+  margin-left: 100px;
+  font-size: 18px;
+}
+button:hover {
+  cursor: pointer;
+}
+.alert {
+  padding-top: 10px;
+  margin: 5px;
+  text-align: center;
+  color: white;
+}
+.alertWithdraw {
+  padding-top: 10px;
+  margin: 5px;
+  text-align: center;
+  color: white;
+}
+
+@media only screen and (max-width: 660px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+}

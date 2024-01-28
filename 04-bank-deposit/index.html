@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bank Deposit</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="">
+        <div class="main-container">
+          <h1>Deposit</h1>
+          <h1>$<span id="deposit-balance" class="balance">00</span></h1>
+        </div>
+        <p id="alert" class="alert"></p>
+        <input
+          type="text"
+          name=""
+          id="deposit-input"
+          placeholder="Deposit Here"
+        />
+        <br />
+        <button id="deposit-btn" type="submit">Deposit</button>
+        <div class="history">
+          <h1>Deposit History</h1>
+          <div class="time">
+            <p>Date</p>
+            <p>Time</p>
+            <p>Amount</p>
+          </div>
+          <div class="deposit-history" id="deposit-history"></div>
+        </div>
+      </div>
+
+      <div class="balance-container">
+        <h1>Balance</h1>
+        <h1>$<span id="balance" class="balance">5000.00</span></h1>
+      </div>
+
+      <div class="">
+        <div class="main-container">
+          <h1>Withdraw</h1>
+          <h1>$<span id="withdraw" class="balance">00</span></h1>
+        </div>
+        <p id="alertWithdraw" class="alertWithdraw"></p>
+        <input
+          type="text"
+          name=""
+          id="inputWithdraw"
+          placeholder="Widthdraw Here"
+        />
+        <br />
+        <button id="withdrawBtn" type="submit">Widthdraw</button>
+        <div class="history">
+          <h1>Widthdraw History</h1>
+          <div class="time">
+            <p>Date</p>
+            <p>Time</p>
+            <p>Amount</p>
+          </div>
+          <div class="deposit-history" id="withdraw-history"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
